@@ -43,6 +43,27 @@ class TCPServer:
             
     def stop(self):
         self.server.close()
+        self.logger.warn(f"TCP Server Disconnected from {self.host}:{self.port}")
+        
+class TCPClient:
+    def __init__(self, host, port):
+        self.host = host
+        self.port = port
+        self.client = None
+        self.logger = context.log
+                
+    def start(self):
+        self.client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        self.client.connect((self.host, self.port))
+        self.logger.info(f"TCP Client Connected to {self.host}:{self.port}")
+        
+    def send(self, data):
+        self.client.sendall(data)
+        self.client.close()
+        
+    def stop(self):
+        self.client.close()
+        self.logger.warn(f"TCP Client Disconnected from {self.host}:{self.port}")
         
 class UDPServer:
     def __init__(self, host, port, callback=None):
@@ -65,6 +86,7 @@ class UDPServer:
             
     def stop(self):
         self.server.close()
+        self.logger.warn(f"UDP Server Disconnected from {self.host}:{self.port}")
         
 class UDPClient:
     def __init__(self, host, port):
@@ -76,6 +98,7 @@ class UDPClient:
         self.client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
         self.client.sendto(data.encode(), (self.host, self.port))
         self.client.close()
-        self.logger.info(f"Sent UDP Client to {self.host}:{self.port}")
+        self.logger.info(f"Sent UDP Client to {self.host}:{self.port}:{data}")
+        
         
         
