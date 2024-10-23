@@ -66,3 +66,16 @@ class UDPServer:
     def stop(self):
         self.server.close()
         
+class UDPClient:
+    def __init__(self, host, port):
+        self.host = host
+        self.port = port
+        self.logger = context.log
+        
+    def send(self, data):
+        self.client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        self.client.sendto(data.encode(), (self.host, self.port))
+        self.client.close()
+        self.logger.info(f"Sent UDP Client to {self.host}:{self.port}")
+        
+        

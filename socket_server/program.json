@@ -1,6 +1,6 @@
 {
   "id": "amx",
-  "name": "flask",
+  "name": "socket_server",
   "description": "description",
   "disabled": false,
   "provider": "python",
