@@ -1,7 +1,7 @@
 {
   "id": "amx",
   "name": "socket_server",
-  "description": "AMX MOjo TCP server, UDP server and UDP client",
+  "description": "AMX MOjo TCP server, TCP client, UDP server and UDP client",
   "disabled": false,
   "provider": "python",
   "scope": "",
