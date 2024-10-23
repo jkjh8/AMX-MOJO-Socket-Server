@@ -1,0 +1,10 @@
+{
+  "id": "amx",
+  "name": "flask",
+  "description": "description",
+  "disabled": false,
+  "provider": "python",
+  "scope": "",
+  "script": "index.py",
+  "envvars": {}
+}
