@@ -1923,6 +1923,98 @@
                     "md5": "5774c41f4c5511a4492a7c5570542932"
                 }
             ]
+        },
+        {
+            "date": "2024-11-04T08:28:54.129Z",
+            "program": "socket_server",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\dev\\amx\\socket_server\\index.py",
+                    "md5": "5c24373e0390e7ebe35aaf0828a6cc68"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\dev\\amx\\socket_server\\program.json",
+                    "md5": "bc34c7644bd4cbdc24fb43248c8e3996"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\dev\\amx\\socket_server\\requirements.txt",
+                    "md5": "d41d8cd98f00b204e9800998ecf8427e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\dev\\amx\\socket_server\\socket_server.py",
+                    "md5": "bfaee408b6bceb9b1cbf10b337084bbd"
+                }
+            ]
+        },
+        {
+            "date": "2024-11-04T08:30:56.526Z",
+            "program": "socket_server",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\dev\\amx\\socket_server\\index.py",
+                    "md5": "5c24373e0390e7ebe35aaf0828a6cc68"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\dev\\amx\\socket_server\\program.json",
+                    "md5": "bc34c7644bd4cbdc24fb43248c8e3996"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\dev\\amx\\socket_server\\requirements.txt",
+                    "md5": "d41d8cd98f00b204e9800998ecf8427e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\dev\\amx\\socket_server\\socket_server.py",
+                    "md5": "1c21864451390dcf6b06c784d1a96660"
+                }
+            ]
+        },
+        {
+            "date": "2024-11-04T08:31:43.781Z",
+            "program": "socket_server",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\dev\\amx\\socket_server\\index.py",
+                    "md5": "e8790a1e68ae9cc1d9b1c207972f3ae6"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\dev\\amx\\socket_server\\program.json",
+                    "md5": "bc34c7644bd4cbdc24fb43248c8e3996"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\dev\\amx\\socket_server\\requirements.txt",
+                    "md5": "d41d8cd98f00b204e9800998ecf8427e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\dev\\amx\\socket_server\\socket_server.py",
+                    "md5": "1c21864451390dcf6b06c784d1a96660"
+                }
+            ]
+        },
+        {
+            "date": "2024-11-04T08:32:41.202Z",
+            "program": "socket_server",
+            "controller": "10.20.0.50",
+            "files": [
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\dev\\amx\\socket_server\\index.py",
+                    "md5": "e8790a1e68ae9cc1d9b1c207972f3ae6"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\dev\\amx\\socket_server\\program.json",
+                    "md5": "bc34c7644bd4cbdc24fb43248c8e3996"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\dev\\amx\\socket_server\\requirements.txt",
+                    "md5": "d41d8cd98f00b204e9800998ecf8427e"
+                },
+                {
+                    "path": "c:\\Users\\kjh\\Desktop\\dev\\amx\\socket_server\\socket_server.py",
+                    "md5": "17026d25cccfd44e98275d0ed1e02162"
+                }
+            ]
         }
     ]
 }

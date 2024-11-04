@@ -25,18 +25,22 @@ if __name__ == '__main__':
     # tcp server
     HOST, PORT = '', 10002
     tcp_server = TCPServer(HOST, PORT, on_message)
-    if tcp_server:
-        server_thread = threading.Thread(target=tcp_server.start)
-        server_thread.daemon = True
-        server_thread.start()
+    tcp_server.start()
+    # if tcp_server:
+    #     server_thread = threading.Thread(target=tcp_server.start)
+    #     server_thread.daemon = True
+    #     server_thread.start()
     # udp server
     HOST, PORT = '', 10003
     udp_server = UDPServer(HOST, PORT, on_message)
-    if udp_server:
-        server_thread = threading.Thread(target=udp_server.start)
-        server_thread.daemon = True
-        server_thread.start()
+    udp_server.start()
+    # if udp_server:
+    #     server_thread = threading.Thread(target=udp_server.start)
+    #     server_thread.daemon = True
+    #     server_thread.start()
     
     # end
     logger.info('Main thread running')
+    context.run(globals())
+    
 
